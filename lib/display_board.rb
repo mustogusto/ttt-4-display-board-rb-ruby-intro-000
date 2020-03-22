@@ -8,12 +8,10 @@ def display_board
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-board[4] = "X"
 display_board([" ", " ", " ", " ", " ", " ", " ", " ", " "])
 
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-
 display_board([" ", " ", " ", " ", "X", " ", " ", " ", " "])
 
 board[0] = "O"
