@@ -42,9 +42,21 @@ board[8] = "X"
 display_board(["X", " ", " ", " ", "X", " ", " ", " ", "X"])
 
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+board[2] = "O"
+board{4} = "O"
+board[6] = "O"
 display_board([" ", " ", "O", " ", "O", " ", "O", " ", " "])
 
 board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+board[0] = "X"
+board[1] = "X"
+board[2] = "X"
+board[3] = "O"
+board[4] = "O"
+board[5] = "X"
+board[6] = "X"
+board[7] = "O" 
+board[8] = "O"
 display_board(["X", "X", "X", "X", "O", "O", "X", "O", "O"])
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
