@@ -97,4 +97,3 @@ def display_board(board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-
