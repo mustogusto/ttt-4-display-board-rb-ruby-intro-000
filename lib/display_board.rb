@@ -60,4 +60,15 @@ board[8] = "O"
 display_board(["X", "X", "X", "X", "O", "O", "X", "O", "O"])
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board[0] = "X"
+board[1] = "O"
+board[2] = "X"
+board[3] = "O"
+board[4] = "X"
+board[5] = "X"
+board[6] = "O"
+board[7] = "X"
+board[8] = "O"
+  
+
 display_board(["X", "O", "X", "O", "X", "X", "O", "X", "O"]
