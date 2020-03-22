@@ -71,4 +71,3 @@ board[7] = "X"
 board[8] = "O"
 
 display_board(["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-
