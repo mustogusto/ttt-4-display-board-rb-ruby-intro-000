@@ -1,4 +1,4 @@
-def display_board(board)
+def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
     puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -7,7 +7,6 @@ def display_board(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board = ([" ", " ", " ", " ", " ", " ", " ", " ", " "])
 
 
 def display_board(board = [" ", " ", " ", " ", "X", " ", " ", " ", " "])
@@ -18,7 +17,7 @@ def display_board(board = [" ", " ", " ", " ", "X", " ", " ", " ", " "])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board([" ", " ", " ", " ", "X", " ", " ", " ", " "])
+
 
 board[0] = "O"
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
