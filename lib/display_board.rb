@@ -36,8 +36,6 @@ def display_board(board = ["O", " ", " ", " ", "X", " ", " ", " ", " "])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
-board[0] = "O"
-board[4] = "X"
 
 
 def display_board(board = ["X", "X", "X", " ", " ", " ", " ", " ", " "])
@@ -48,9 +46,7 @@ def display_board(board = ["X", "X", "X", " ", " ", " ", " ", " ", " "])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-board[0] = "X"
-board[1] = "X"
-board[2] = "X"
+
 
 
 def display_board(board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"])
@@ -61,9 +57,6 @@ def display_board(board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
-board[6] = "O"
-board[7] = "O"
-board[8] = "O"
 
 
 def display_board(board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"])
@@ -74,9 +67,6 @@ def display_board(board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-board[0] = "X"
-board[4] = "X"
-board[8] = "X"
 
 
 def display_board(board = [" ", " ", "O", " ", "O", " ", "O", " ", " "])
@@ -87,9 +77,6 @@ def display_board(board = [" ", " ", "O", " ", "O", " ", "O", " ", " "])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
-board[2] = "O"
-board{4} = "O"
-board[6] = "O"
 
 
 def display_board(board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"])
@@ -100,15 +87,6 @@ def display_board(board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
-board[0] = "X"
-board[1] = "X"
-board[2] = "X"
-board[3] = "O"
-board[4] = "O"
-board[5] = "X"
-board[6] = "X"
-board[7] = "O"
-board[8] = "O"
 
 
 def display_board(board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"])
@@ -119,12 +97,4 @@ def display_board(board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"])
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-board[0] = "X"
-board[1] = "O"
-board[2] = "X"
-board[3] = "O"
-board[4] = "X"
-board[5] = "X"
-board[6] = "O"
-board[7] = "X"
-board[8] = "O"
+
