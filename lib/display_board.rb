@@ -78,7 +78,7 @@ board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 board[0] = "X"
 board[4] = "X"
 board[8] = "X"
-display_board(["X", " ", " ", " ", "X", " ", " ", " ", "X"])
+
 
 def display_board(board = [" ", " ", "O", " ", "O", " ", "O", " ", " "])
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
