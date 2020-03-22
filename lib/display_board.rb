@@ -55,7 +55,7 @@ board[3] = "O"
 board[4] = "O"
 board[5] = "X"
 board[6] = "X"
-board[7] = "O" 
+board[7] = "O"
 board[8] = "O"
 display_board(["X", "X", "X", "X", "O", "O", "X", "O", "O"])
 
