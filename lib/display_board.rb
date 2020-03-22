@@ -122,5 +122,3 @@ board[5] = "X"
 board[6] = "O"
 board[7] = "X"
 board[8] = "O"
-
-
